@@ -33,55 +33,6 @@ across several topic domains:
 Each domain has two related tables in a 1-to-many relationship.
 You will run the retail example, then implement the same pipeline for a domain you choose.
 
-## Working Files
-
-You'll work with just these areas:
-
-- **data/raw/\*** - raw CSV input files
-- **data/processed/** - processed data outputs, if created
-- **artifacts/** - generated database files, logs, or reports
-- **docs/** - the project narrative and documentation
-- **sql/** - SQL query files
-- **src/datafun/** - Python orchestration scripts
-- **pyproject.toml** - update project metadata
-- **zensical.toml** - update documentation site metadata
-
-## Instructions (pro-analytics-02)
-
-Follow the
-[step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
-to complete:
-
-1. Phase 1. **Start & Run**
-2. Phase 2. **Change Authorship**
-3. Phase 3. **Read & Understand**
-4. Phase 4. **Modify**
-5. Phase 5. **Apply**
-
-## Challenges
-
-Challenges are expected.
-Sometimes instructions may not quite match your operating system.
-When issues occur, share screenshots, error messages, and details about what you tried.
-Working through issues is part of implementing professional projects.
-
-## Success
-
-After completing Phase 1. **Start & Run**, you'll have your own GitHub project,
-running on your machine.
-
-Running the examples should create generated database files in `artifacts/`.
-
-A new file `project.log` will appear in the root project folder
-and you should see:
-
-```shell
-========================
-Executed successfully!
-========================
-```
-
-A new file `project.log` will appear in the root project folder.
 
 ## Command Reference
 
@@ -100,7 +51,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/datafun-05-sql
+git clone https://github.com/ajaneh/datafun-05-sql
 
 cd datafun-05-sql
 code .
@@ -161,26 +112,4 @@ Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 
 ## DuckDB Example Output (Replace This with Yours and Describe)
 
-```shell
-| INFO | P05 | RUN SQL query: C:\Repos\datafun\datafun-05-sql\sql\duckdb\case_retail_query_sales_by_category.sql
-| INFO | P05 | ====================================
-| INFO | P05 | case_retail_query_sales_by_category.sql
-| INFO | P05 | ====================================
-| INFO | P05 | product_category, sale_count, total_revenue, avg_sale_amount
-| INFO | P05 | Outdoors, 9, 3200.0, 355.56
-| INFO | P05 | Clothing, 10, 1375.0, 137.5
-| INFO | P05 | Food, 11, 652.0, 59.27
-| INFO | P05 |
-| INFO | P05 | RUN SQL query: C:\Repos\datafun\datafun-05-sql\sql\duckdb\case_retail_query_kpi_revenue.sql
-| INFO | P05 | ====================================
-| INFO | P05 | case_retail_query_kpi_revenue.sql
-| INFO | P05 | ====================================
-| INFO | P05 | store_id, store_name, city, region, sale_count, total_revenue, avg_sale_amount
-| INFO | P05 | S003, Central Plaza, Mankato, South, 10, 1868.0, 186.8
-| INFO | P05 | S001, North Market, Duluth, North, 10, 1834.0, 183.4
-| INFO | P05 | S002, Lakeside Shop, Ely, North, 10, 1525.0, 152.5
-| INFO | P05 | ========================
-| INFO | P05 | Executed successfully!
-| INFO | P05 | ========================
-| INFO | P05 | END main()
-```
+TODO
